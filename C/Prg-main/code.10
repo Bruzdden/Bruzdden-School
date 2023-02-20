@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int cislo;
+    printf("Číslo: ");
+    scanf("%d", &cislo);
+
+    if(cislo % 2 == 0)
+        printf("%d je sudý.", cislo);
+    else
+        printf("%d je lichý.", cislo);
+    
+
+
+
+
+    return 0;
+    
+}

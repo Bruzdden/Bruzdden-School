@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char delka[] = "HELLOOOO";
+    
+    int len = strlen(delka); /*do len se uloží počet znaku "delka"*/
+    int count = 1; 
+    for(int i = 0; i < len; i++){   /* i < len se da napsat jako i < strlen(delka) a je to lehci nemusi se to ukladat do len*/
+
+        if(delka[i] == delka[i + 1])
+{
+            count += 1;
+}
+        else
+{
+            printf("%c%d-", delka[i], count); // znaky jsou rozdeleny - aby to bylo prehlednejsi da se to odstranit
+            count = 1;
+}   
+}
+     return(0);
+}

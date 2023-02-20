@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int rok;
+    
+    printf("ROK: ");
+    scanf("%d", &rok);
+
+        if (rok % 400 == 0) {
+        printf("%d je přetupný rok.", rok);
+    }
+   
+    else if (rok % 100 == 0) {
+        printf("%d není přestupný rok.", rok);
+    }
+   
+    else if (rok % 4 == 0) {
+        printf("%d je přestupný rok.", rok);
+    }
+   
+    else {
+        printf("%d neni přestupný rok.", rok);
+    }
+    
+
+    
+    
+    
+    
+    
+    return 0;
+}
