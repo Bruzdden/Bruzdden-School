@@ -1,0 +1,71 @@
+<html>  
+<head>  
+    <title>PHP login system</title>  
+    <link rel = "stylesheet" type = "text/css" href = "regstyle.css">   
+</head>  
+<body>  
+    Delal jsem na tom sam, protoze jakub je neschopnej :)
+    <div id="frm">
+    <form name="f2" action="register.php" onsubmit="return validation()" method="POST">
+        <h1>Register</h1>
+        <div class="container">
+        <p>
+            <label for="username"><b>Username</b></label>
+            <input type="text" name="username" id="username">
+        </p>
+        <p>
+            <label for="password"><b>Password</b></label>
+            <input type="password" name="password" id="password">
+        </p>
+        <p>
+            <label for="password2"><b>Password Again</b></label>
+            <input type="password" name="password2" id="password2">
+        </p>
+        <label for="level">Choose a Tier:</label>
+
+        <select id="level" name="level" required>
+        <option value="silver">Silver</option>
+        <option value="gold">Gold</option>
+        <option value="platinum">Platinum</option>
+        </select>
+        </p>  
+        <p>
+            <label for="agree">
+                <input type="checkbox" name="agree" id="agree" value="yes"/> I agree
+                with the
+                <a href="#" title="term of services">term of services</a>
+            </label>
+        </p>
+        <p>     
+            <input type ="submit" id = "btn" name="regBtn" value = "Register" />  
+        </p>
+        <footer>Already a member? <a href="./index.html">Login here</a></footer>
+    </div>
+    </form>
+    </div>
+            
+            
+    <script>  
+            function validation()  
+            {  
+                var id=document.f2.username.value;  
+                var ps=document.f2.password.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>  
+</body>     
+</html>  
