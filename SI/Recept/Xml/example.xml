@@ -1,0 +1,33 @@
+<recipes>
+    <recipe>
+        <name>Vejce v proteinu</name>
+        <dur unit="min">3</dur>
+        <ingedients>
+            <name amount="2" unit="ks">Vejce</name>
+            <name amount="30" unit="g">Protein</name>
+        </ingedients>
+        <steps>
+            <step order="1">Rozehřejeme pánvičku</step>
+            <step order="2">Rotklepneme vejce na pánvičku</step>
+            <step order="3">Přidáme protein</step>
+            <step order="4">Mícháme a po chvíli ohřívání nandáme na talíř</step>
+        </steps>
+    </recipe>
+    <recipe>
+        <name>Proteinová kaše</name>
+        <dur unit="min">5</dur>
+        <ingredients>
+            <name amount="100" unit="ml">Hot watter</name>
+            <name amount="40" unit="g">Protein</name>
+            <name amount="65" unit="g">Ovesná kaše</name>
+            <name amount="140" unit="g">Bílí jogurt</name>
+        </ingredients>
+        <steps>
+            <step order="1">Ohřejeme vodu aby byla horká</step>
+            <step order="2">Do misky vložíme ovesnou kaši a protein</step>
+            <step order="3">Kaši zalijeme horkou vodou</step>
+            <step order="4">Přidáme jogurt a vše zamíchame</step>
+        </steps>
+                                                   
+    </recipe>
+</recipes>
