@@ -10,9 +10,9 @@ def analyze(graph):
     for i in range(len(graph)):
         for j in range(i):
             if graph[i][j] == 1 and graph[j][i] == 1:
-                print("Uzli ",i+1," a ",j+1," jsou propojené")
+                print("Uzly ",i+1," a ",j+1," jsou propojené")
             else:
-                print("Uzli ",i+1," a ",j+1," nejsou propojené")
+                print("Uzly ",i+1," a ",j+1," nejsou propojené")
 
 
 analyze(graph)
