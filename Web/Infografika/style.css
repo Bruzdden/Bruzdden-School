@@ -1,0 +1,341 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+.heading {
+    background-color: #4056F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+}
+.heading .title {
+    display: flex;
+    justify-content: center;
+    font-size: calc(2rem + 2vw);
+    width: 350px;
+    height: 100px;
+    background-color: #ffd60a;
+    
+}
+.heading .name {
+    margin-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background-color: #4056F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2500px;
+}
+.items {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+}
+
+.item {
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    width: 90%;
+    max-width: 300px;
+    height: 200px;
+    max-height: 350px;
+    margin: 25px;
+}
+.item-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.facts {
+    height: 400px;
+    text-align: center;
+}
+.facts_title {
+    font-size: 50px;
+    height: 100px;
+    padding: 10;
+}
+.images {
+    position: absolute;
+    width: 100%;
+    top: 430px;
+    height: 2200px;
+}
+.img-algorithm1 {
+    position: absolute;
+    top: 31%;
+    left: 32%;
+}
+.img-img1 {
+    position: absolute;
+    top: -5%;
+    left: 30%;
+}
+
+.img-img2 {
+    position: absolute;
+    top: 72%;
+    left: 65%;
+}
+
+.img-img3 {
+    position: absolute;
+    top: 63%;
+    left: 45.5%; 
+    transform: rotate(90deg);
+}
+
+.img-algorithm4 {
+    position: absolute;
+    top: 59%;
+    left: 83%; 
+}
+
+.img-cheer {
+    position: absolute;
+    top: 73%;
+    left: 35%;
+}
+
+.img-work {
+    position: absolute;
+    top: -5%;
+    left: 63%;
+}
+
+.img-star {
+    position: absolute;
+    top: -17%;
+    left: 5%;
+}
+
+.triangle-icon {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 180px solid #ffd60a;
+}
+.triangle-text {
+    position: absolute;
+    font-size: 50px;
+    left: 43%;
+    top: -7%;
+}
+.triangle .line1 {
+    position: absolute;
+    border-left: 6px solid #ffd60a;
+    height: 410px;
+    left: 49%;
+    top: 95%;
+    z-index: 999;
+}
+.triangle .line2 {
+    position: absolute;
+    border-top: 6px solid #ffd60a;
+    width: 80px;
+    left: 49%;
+    top: 165%;
+    z-index: 999;
+}
+.triangle .line3 {
+    position: absolute;
+    border-top: 6px solid #ffd60a;
+    width: 80px;
+    left: 49%;
+    top: 320%;
+    z-index: 999;
+}
+
+.triangle {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main-text {
+    position: absolute;
+    width: 450px;
+    height: 100%;
+    left: 25%;
+    top: 15%;
+}
+.info {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 200px;
+    border: #ffd60a 5px solid;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+    font-weight: 600;
+}
+.info p {
+    margin: 20px;
+}
+.use {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    height: 250px;
+    border: #ffd60a 5px solid;
+    border-radius: 50px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.binary {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 5%;
+    top: 60%;
+}
+
+.razeni {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 50%;
+    top: 85%;
+
+}
+.rekurze {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 5%;
+    top: 160%;
+
+}
+.grafy {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 50%;
+    top: 185%;
+
+}
+.hash {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 5%;
+    top: 260%;
+
+}
+
+.poznamka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 455px;
+    height: 100px;
+    left: 56%;
+    top: 310%;
+    border: #ffd60a 5px solid;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+  
+
+  
+
+@media screen and (max-width: 1300px) {
+    .main {
+        max-width: 100%;
+        height: 4500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .items {
+        max-width: 100%;
+    }
+
+    .item {
+        width: 90%;
+    }
+    .images {
+        max-width: 100%;
+    }
+    .binary,
+    .razeni,
+    .rekurze,
+    .grafy,
+    .hash {
+        position: relative;
+        left: 2%;
+        top: 0;
+        margin-bottom: 100px;
+    }
+
+    .poznamka {
+        position: absolute;
+        top: 425%;
+        left: 28%;
+    }
+
+    .images {
+        position: absolute;
+        width: 100%;
+        height: 4500px;
+        top: 180px;
+    }
+    .img-algorithm1 {
+        top: 38.7%;
+        left: 55%;
+    }
+    .img-img1 {
+        top: 21%;
+        left: 50%;
+    }
+    
+    .img-img2 {
+        top: 72%;
+        left: 63%;
+    }
+    
+    .img-img3 {
+        top: 57.5%;
+    }
+    
+    .img-algorithm4 {
+        top: 49%;
+        left: 70%; 
+    }
+    
+    .img-cheer {
+        top: 78.5%;
+        left: 58%;
+    }
+    
+    .img-work {
+        top: 0;
+        left: 52%;
+    }
+    .img-star {
+        top: -2%;
+        left: 5%;
+    }
+}
